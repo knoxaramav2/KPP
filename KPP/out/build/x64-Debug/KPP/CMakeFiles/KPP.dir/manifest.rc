@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/KPP/CMakeFiles/KPP.dir/embed.manifest"

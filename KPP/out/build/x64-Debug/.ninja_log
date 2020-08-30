@@ -1,0 +1,13 @@
+# ninja log v5
+1	1024	620523937	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	4327e17a2334407e
+1024	1448	620523937	KPP/KPP.exe	dc7e4d273dead5d5
+1	579	620524364	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	4327e17a2334407e
+579	825	620524364	KPP/KPP.exe	dc7e4d273dead5d5
+6	607	620526242	Parser/CMakeFiles/Parser.dir/Parser.cpp.obj	4cf0c887ae96f112
+607	676	620526242	Parser/Parser.lib	2efd4655efffeeb9
+1	904	620526242	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	4327e17a2334407e
+904	1126	620526242	KPP/KPP.exe	dc7e4d273dead5d5
+1	628	620527168	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	b7906dc7393634f1
+1	716	620527237	Parser/CMakeFiles/Parser.dir/Parser.cpp.obj	4cf0c887ae96f112
+716	756	620527237	Parser/Parser.lib	2efd4655efffeeb9
+757	990	620527237	KPP/KPP.exe	6ea03f16aec1395c

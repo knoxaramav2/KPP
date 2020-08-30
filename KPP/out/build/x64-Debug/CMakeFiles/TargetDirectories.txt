@@ -1,0 +1,8 @@
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/KPP/CMakeFiles/KPP.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/KPP/CMakeFiles/edit_cache.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/KPP/CMakeFiles/rebuild_cache.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Parser/CMakeFiles/Parser.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Parser/CMakeFiles/edit_cache.dir
+C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Parser/CMakeFiles/rebuild_cache.dir
