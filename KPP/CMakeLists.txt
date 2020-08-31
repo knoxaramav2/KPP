@@ -7,5 +7,6 @@ project ("KPP" VERSION 1.0)
 configure_file(KPP/KPP.h KPP/KPP.h.in)
 # Include sub-projects.
 add_subdirectory ("KPP")
-#add_subdirectory ("KPP_Lang")
+add_subdirectory ("KPP_Lang")
 add_subdirectory ("Parser")
+add_subdirectory ("Config")

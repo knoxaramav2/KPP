@@ -4,7 +4,12 @@
 #pragma once
 
 #include <iostream>
+#include <Config.h>
 
 #define VERSION_MAJOR 1
 
-// TODO: Reference additional headers your program requires here.
+class InvalidConfigException : public std::exception {
+
+};
+
+extern Config config;

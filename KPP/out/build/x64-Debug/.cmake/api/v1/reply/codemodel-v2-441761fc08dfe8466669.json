@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -29,8 +31,18 @@
 					"source" : "KPP",
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
+				},
+				{
+					"build" : "KPP_Lang",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "KPP_Lang"
 				},
 				{
 					"build" : "Parser",
@@ -43,7 +55,21 @@
 					"source" : "Parser",
 					"targetIndexes" : 
 					[
-						1
+						2
+					]
+				},
+				{
+					"build" : "Config",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Config",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -55,27 +81,37 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"name" : "KPP",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
+					"directoryIndex" : 4,
+					"id" : "Config::@450292a00204b211412e",
+					"jsonFile" : "target-Config-Debug-9f3c897a870d005c2693.json",
+					"name" : "Config",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "KPP::@dee939002154f50e14b1",
-					"jsonFile" : "target-KPP-Debug-1af0059cca88e32a17fd.json",
+					"jsonFile" : "target-KPP-Debug-dc062c518f934e17fe33.json",
 					"name" : "KPP",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 2,
+					"directoryIndex" : 3,
 					"id" : "Parser::@74bff9814a543eacbe93",
 					"jsonFile" : "target-Parser-Debug-4accaed28cba2e64bc73.json",
 					"name" : "Parser",

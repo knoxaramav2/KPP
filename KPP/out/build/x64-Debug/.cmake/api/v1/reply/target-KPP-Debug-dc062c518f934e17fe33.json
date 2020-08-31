@@ -29,19 +29,37 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 15,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 22,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
 				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -58,8 +76,20 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Users/MMI/Documents/tmpdev/KPP/KPP/Parser"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/MMI/Documents/tmpdev/KPP/KPP/KPP/public"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/MMI/Documents/tmpdev/KPP/KPP/KPP_Lang"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/MMI/Documents/tmpdev/KPP/KPP/Config"
 				}
 			],
 			"language" : "CXX",
@@ -74,6 +104,10 @@
 		{
 			"backtrace" : 2,
 			"id" : "Parser::@74bff9814a543eacbe93"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Config::@450292a00204b211412e"
 		}
 	],
 	"id" : "KPP::@dee939002154f50e14b1",
@@ -90,11 +124,11 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-LIBPATH:C:\\Users\\MMI\\Documents\\tmpdev\\KPP\\KPP\\Parser",
+				"fragment" : "-LIBPATH:C:\\Users\\MMI\\Documents\\tmpdev\\KPP\\KPP\\Parser  -LIBPATH:C:\\Users\\MMI\\Documents\\tmpdev\\KPP\\KPP\\KPP_Lang  -LIBPATH:C:\\Users\\MMI\\Documents\\tmpdev\\KPP\\KPP\\Config",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "..\\Parser\\Parser.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"fragment" : "..\\Parser\\Parser.lib ..\\Config\\Config.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
 		],

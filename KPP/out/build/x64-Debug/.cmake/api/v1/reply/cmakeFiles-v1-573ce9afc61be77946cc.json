@@ -127,7 +127,13 @@
 			"path" : "KPP/CMakeLists.txt"
 		},
 		{
+			"path" : "KPP_Lang/CMakeLists.txt"
+		},
+		{
 			"path" : "Parser/CMakeLists.txt"
+		},
+		{
+			"path" : "Config/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

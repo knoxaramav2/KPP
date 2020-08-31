@@ -7,9 +7,16 @@ cmake_minimum_required (VERSION 3.8)
 include_directories("${CMAKE_SOURCE_DIR}/Parser")
 link_directories("${CMAKE_SOURCE_DIR}/Parser")
 
+include_directories(public "${CMAKE_SOURCE_DIR}/KPP_Lang")
+link_directories("${CMAKE_SOURCE_DIR}/KPP_Lang")
+
+include_directories(public "${CMAKE_SOURCE_DIR}/Config")
+link_directories("${CMAKE_SOURCE_DIR}/Config")
+
 # Add source to this project's executable.
 add_executable (KPP "KPP.cpp" "KPP.h")
 
 # TODO: Add tests and install targets if needed.
 
 target_link_libraries(KPP Parser)
+target_link_libraries(KPP Config)
