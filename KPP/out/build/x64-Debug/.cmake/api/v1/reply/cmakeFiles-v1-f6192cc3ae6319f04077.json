@@ -134,6 +134,9 @@
 		},
 		{
 			"path" : "Config/CMakeLists.txt"
+		},
+		{
+			"path" : "Util/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -11,7 +11,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"minimumCMakeVersion" : 
 					{
@@ -71,6 +72,20 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "Util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Util",
+					"targetIndexes" : 
+					[
+						3
+					]
 				}
 			],
 			"name" : "Debug",
@@ -83,14 +98,16 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					],
 					"name" : "KPP",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -106,7 +123,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "KPP::@dee939002154f50e14b1",
-					"jsonFile" : "target-KPP-Debug-dc062c518f934e17fe33.json",
+					"jsonFile" : "target-KPP-Debug-ad8c07ac6d4d3c6d7954.json",
 					"name" : "KPP",
 					"projectIndex" : 0
 				},
@@ -115,6 +132,13 @@
 					"id" : "Parser::@74bff9814a543eacbe93",
 					"jsonFile" : "target-Parser-Debug-4accaed28cba2e64bc73.json",
 					"name" : "Parser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Util::@985804b4fac11ee930c3",
+					"jsonFile" : "target-Util-Debug-5e0895df33b95999ed0e.json",
+					"name" : "Util",
 					"projectIndex" : 0
 				}
 			]

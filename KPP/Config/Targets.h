@@ -1,6 +1,6 @@
 #pragma once
 
-enum TargetArchitecture {
+enum class TargetArchitecture {
 	//Windows
 	WIN_x86,
 	WIN_x86_64,

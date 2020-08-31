@@ -1,7 +1,10 @@
 #pragma once
 
-enum Verbosity {
+enum class Verbosity {
 	Silent,
 	Normal,
 	Verbose
 };
+
+
+//Exceptions

@@ -38,6 +38,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/KPP_Lang/cmake_install.cmake")
   include("C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Parser/cmake_install.cmake")
   include("C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Config/cmake_install.cmake")
+  include("C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug/Util/cmake_install.cmake")
 
 endif()
 

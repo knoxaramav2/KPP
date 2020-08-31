@@ -13,7 +13,7 @@ public:
 	TargetArchitecture architecture;
 
 	//Debug
-	
+	bool includeDebugMeta;
 
 	//Warnings and Errors
 	Verbosity verbosity;

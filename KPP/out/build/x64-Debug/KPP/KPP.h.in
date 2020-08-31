@@ -12,4 +12,4 @@ class InvalidConfigException : public std::exception {
 
 };
 
-extern Config config;
+extern Config _config;

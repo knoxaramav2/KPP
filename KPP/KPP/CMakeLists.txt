@@ -13,6 +13,9 @@ link_directories("${CMAKE_SOURCE_DIR}/KPP_Lang")
 include_directories(public "${CMAKE_SOURCE_DIR}/Config")
 link_directories("${CMAKE_SOURCE_DIR}/Config")
 
+include_directories(public "${CMAKE_SOURCE_DIR}/Util")
+link_directories("${CMAKE_SOURCE_DIR}/Util")
+
 # Add source to this project's executable.
 add_executable (KPP "KPP.cpp" "KPP.h")
 
@@ -20,3 +23,4 @@ add_executable (KPP "KPP.cpp" "KPP.h")
 
 target_link_libraries(KPP Parser)
 target_link_libraries(KPP Config)
+target_link_libraries(KPP Util)

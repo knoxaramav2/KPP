@@ -11,7 +11,7 @@
 
 using namespace std;
 
-Config config;
+Config _config;
 
 tuple<string, string> getCliKeyVal(string input) {
 
@@ -23,6 +23,8 @@ tuple<string, string> getCliKeyVal(string input) {
 }
 
 void cliParser(int argc, char**argv) {
+
+	bool fatal = false;
 
 	for (int i = 1; i < argc; ++i) {
 
@@ -39,7 +41,19 @@ void cliParser(int argc, char**argv) {
 			tie(key, val) = getCliKeyVal(op.substr(2, op.length() - 2));
 
 			if (key == "verbose") {//set verbosity
-				config.
+				if (val == "silent") {
+					_config.verbosity = Verbosity::Silent;
+				}
+				else if (val == "normal")
+				{
+					_config.verbosity = Verbosity::Normal;
+				}
+				else if (val == "verbose") {
+					_config.verbosity = Verbosity::Verbose;
+				}
+				else {
+					
+				}
 			}
 			else if(key == "source") {
 
@@ -52,8 +66,8 @@ void cliParser(int argc, char**argv) {
 				case 'v'://print version
 
 					break;
-				case 'd'://debug mode
-
+				case 'd'://debug info
+					_config.includeDebugMeta = true;
 					break;
 				case 'h'://help printout
 
@@ -76,7 +90,7 @@ void cliParser(int argc, char**argv) {
 int main(int argc, char**argv, char*argx)
 {
 	cout << "KNX++ Compiler" << endl;
-	cout << config.architecture << endl;
+	cout << (int)_config.architecture << endl;
 
 	cliParser(argc, argv);
 

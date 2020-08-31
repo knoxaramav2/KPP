@@ -20,6 +20,12 @@ using namespace std;
 Config::Config() {
 	architecture = ARCH;
 	verbosity = Verbosity::Normal;
+	includeDebugMeta = true;
 
-	cout << ARCH << endl;
+	cout << (int)ARCH << endl;
+}
+
+TargetArchitecture GetArchitecture()
+{
+	return ARCH;
 }
