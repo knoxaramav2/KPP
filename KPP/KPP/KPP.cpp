@@ -2,16 +2,19 @@
 //
 
 #include <tuple>
-
-#include "KPP.h"
-#include "Parser.h"
 #include <SymbolTable.h>
 #include <Token.h>
 #include <Config.h>
+#include "Util.h"
+
+#include "KPP.h"
+#include "Parser.h"
+
 
 using namespace std;
 
 Config _config;
+ErrorReporter _reporter;
 
 tuple<string, string> getCliKeyVal(string input) {
 
@@ -38,9 +41,20 @@ void cliParser(int argc, char**argv) {
 		if (op[1] == '-') {
 
 			string key, val;
-			tie(key, val) = getCliKeyVal(op.substr(2, op.length() - 2));
+			
+			if (op.find('=') != string::npos) {
+				tie(key, val) = getCliKeyVal(op.substr(2, op.length() - 2));
+			}
+			else {
+				key = op;
+			}
+
+			
 
 			if (key == "verbose") {//set verbosity
+
+
+
 				if (val == "silent") {
 					_config.verbosity = Verbosity::Silent;
 				}
@@ -90,9 +104,10 @@ void cliParser(int argc, char**argv) {
 int main(int argc, char**argv, char*argx)
 {
 	cout << "KNX++ Compiler" << endl;
-	cout << (int)_config.architecture << endl;
 
 	cliParser(argc, argv);
+
+	cout << "Done." << endl;
 
 	return 0;
 }

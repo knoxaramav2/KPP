@@ -21,8 +21,9 @@ Config::Config() {
 	architecture = ARCH;
 	verbosity = Verbosity::Normal;
 	includeDebugMeta = true;
-
-	cout << (int)ARCH << endl;
+	wError = false;
+	optimizationLevel = 0;
+	buildType = OutputType::Executable;
 }
 
 TargetArchitecture GetArchitecture()

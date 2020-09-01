@@ -41,13 +41,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -123,11 +123,11 @@
 		},
 		{
 			"backtrace" : 3,
-			"id" : "Util::@985804b4fac11ee930c3"
+			"id" : "Config::@450292a00204b211412e"
 		},
 		{
 			"backtrace" : 4,
-			"id" : "Config::@450292a00204b211412e"
+			"id" : "Util::@985804b4fac11ee930c3"
 		}
 	],
 	"id" : "KPP::@dee939002154f50e14b1",

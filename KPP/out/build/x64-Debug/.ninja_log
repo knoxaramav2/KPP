@@ -59,3 +59,9 @@
 602	660	620620559	Util/Util.lib	59a95a234ca40a8c
 3	973	620620559	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	e0df82c1046b7525
 974	1291	620620560	KPP/KPP.exe	d60f7c33a751ef6e
+2	325	620627578	build.ninja	81fdc8a65d4596c1
+7	1125	620627580	Config/CMakeFiles/Config.dir/Config.cpp.obj	cc82f812b37e4510
+1125	1215	620627580	Config/Config.lib	fadbf72cf294ef
+2	1239	620627580	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	e0df82c1046b7525
+2	297	620627649	build.ninja	81fdc8a65d4596c1
+2	671	620627650	KPP/CMakeFiles/KPP.dir/KPP.cpp.obj	e0df82c1046b7525
