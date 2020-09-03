@@ -1,0 +1,8 @@
+$Class.kpp
+
+namespace main{
+	#starting function
+	void entry(int argc, string[] argv){
+		
+	}
+}

@@ -12,6 +12,8 @@ enum class ErrorLevel {
 struct Error {
 	ErrorLevel level;
 	std::string message;
+
+	Error(ErrorLevel, std::string);
 };
 
 class ErrorReporter {
@@ -32,3 +34,5 @@ public:
 	void Add(Error);
 
 };
+
+extern "C" __declspec(dllexport) ErrorReporter _reporter;

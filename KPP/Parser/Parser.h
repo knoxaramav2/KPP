@@ -1,10 +1,13 @@
 #pragma once
 
+#include <string>
+
 class Parser {
+
+	std::string _src;
 
 	public:
 
-	Parser();
-
+	Parser(std::string srfFile);
 
 };

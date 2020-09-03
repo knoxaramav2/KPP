@@ -10,11 +10,13 @@ int ErrorReporter::CountWarnings()
 	for (int i = 0; i < _warnings.size(); ++i) {
 		if (_warnings[i].level == ErrorLevel::Warning) { ++wrn; }
 	}
+
+	return wrn;
 }
 
 int ErrorReporter::CountErrors()
 {
-	return _errors.size();
+	return (int) _errors.size();
 }
 
 std::vector<Error> ErrorReporter::getWarnings()
@@ -35,4 +37,10 @@ void ErrorReporter::Add(Error e)
 	else {
 		_warnings.push_back(e);
 	}
+}
+
+Error::Error(ErrorLevel level, std::string message)
+{
+	this->level = level;
+	this->message = message;
 }

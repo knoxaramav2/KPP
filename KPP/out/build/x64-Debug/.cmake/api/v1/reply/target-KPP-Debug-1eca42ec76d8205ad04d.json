@@ -35,13 +35,13 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 25,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -119,11 +119,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Parser::@74bff9814a543eacbe93"
+			"id" : "Config::@450292a00204b211412e"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "Config::@450292a00204b211412e"
+			"id" : "Parser::@74bff9814a543eacbe93"
 		},
 		{
 			"backtrace" : 4,

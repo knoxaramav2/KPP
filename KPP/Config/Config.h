@@ -35,8 +35,11 @@ public:
 	//Warnings and Errors
 	Verbosity verbosity;
 	bool wError;
+	bool suppressErrors;
 
 
 };
+
+extern "C" __declspec(dllexport) Config _config;
 
 TargetArchitecture GetArchitecture();

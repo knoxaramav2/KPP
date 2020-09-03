@@ -5,7 +5,7 @@
 #include <SymbolTable.h>
 #include <Token.h>
 #include <Config.h>
-#include "Util.h"
+#include <Util.h>
 
 #include "KPP.h"
 #include "Parser.h"
@@ -13,8 +13,8 @@
 
 using namespace std;
 
-Config _config;
-ErrorReporter _reporter;
+//Config _config;
+//ErrorReporter _reporter;
 
 tuple<string, string> getCliKeyVal(string input) {
 
@@ -49,12 +49,7 @@ void cliParser(int argc, char**argv) {
 				key = op;
 			}
 
-			
-
 			if (key == "verbose") {//set verbosity
-
-
-
 				if (val == "silent") {
 					_config.verbosity = Verbosity::Silent;
 				}
@@ -66,11 +61,12 @@ void cliParser(int argc, char**argv) {
 					_config.verbosity = Verbosity::Verbose;
 				}
 				else {
-					
+					_reporter.Add(Error(ErrorLevel::Error, 
+						"Invalid verbosity level '"+val+"'"));
 				}
 			}
 			else if(key == "source") {
-
+				_config.srcFile = val;
 			}
 		}
 		else {
@@ -87,10 +83,10 @@ void cliParser(int argc, char**argv) {
 
 					break;
 				case 'w'://suppress warnings
-
+					_config.suppressErrors = true;
 					break;
 				case 'e'://warnings elevated to errors
-
+					_config.wError = true;
 					break;
 				default:
 					break;
@@ -106,6 +102,8 @@ int main(int argc, char**argv, char*argx)
 	cout << "KNX++ Compiler" << endl;
 
 	cliParser(argc, argv);
+
+	Parser parser(_config.srcFile);
 
 	cout << "Done." << endl;
 

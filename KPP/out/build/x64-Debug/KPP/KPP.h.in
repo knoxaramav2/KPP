@@ -9,9 +9,7 @@
 
 #define VERSION_MAJOR 1
 
-class InvalidConfigException : public std::exception {
+__declspec(dllimport) Config _config;
+__declspec(dllimport) ErrorReporter _reporter;
 
-};
-
-extern ErrorReporter _reporter;
-extern Config _config;
+class InvalidConfigException : public std::exception {};

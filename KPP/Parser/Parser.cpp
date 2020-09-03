@@ -1,9 +1,16 @@
 using namespace std;
 
 #include <iostream>
+#include <string>
 
 #include "Parser.h"
 
-Parser::Parser() {
-	cout << "PARSER" << endl;
+Parser::Parser(string src) {
+
+	if (src == "") {
+		
+	}
+
+	_src = src;
+	
 }

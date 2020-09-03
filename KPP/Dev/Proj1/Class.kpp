@@ -1,0 +1,21 @@
+class Person{
+	
+	string name;
+
+	(){
+		
+	}
+
+	~(){
+		
+	}
+
+	void 
+
+}
+
+void nonClassTast(){
+	Person p;
+	p.name = "Bob";
+
+}
