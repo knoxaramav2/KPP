@@ -37,6 +37,8 @@ public:
 	bool wError;
 	bool suppressErrors;
 
+	//Static info
+	std::string execDir;
 
 };
 

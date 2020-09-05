@@ -211,6 +211,9 @@ KPP_BINARY_DIR:STATIC=C:/Users/MMI/Documents/tmpdev/KPP/KPP/out/build/x64-Debug
 //Value Computed by CMake
 KPP_SOURCE_DIR:STATIC=C:/Users/MMI/Documents/tmpdev/KPP/KPP
 
+//Dependencies for the target
+Parser_LIB_DEPENDS:STATIC=general;Config;general;Util;
+
 
 ########################
 # INTERNAL cache entries

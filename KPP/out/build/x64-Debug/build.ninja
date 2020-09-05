@@ -158,7 +158,7 @@ build KPP_Lang\rebuild_cache: phony KPP_Lang\CMakeFiles\rebuild_cache.util
 #############################################
 # Order-only phony target for Parser
 
-build cmake_object_order_depends_target_Parser: phony || Parser\CMakeFiles\Parser.dir
+build cmake_object_order_depends_target_Parser: phony || cmake_object_order_depends_target_Config cmake_object_order_depends_target_Util
 
 build Parser\CMakeFiles\Parser.dir\Parser.cpp.obj: CXX_COMPILER__Parser ..\..\..\Parser\Parser.cpp || cmake_object_order_depends_target_Parser
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
@@ -175,7 +175,7 @@ build Parser\CMakeFiles\Parser.dir\Parser.cpp.obj: CXX_COMPILER__Parser ..\..\..
 #############################################
 # Link the static library Parser\Parser.lib
 
-build Parser\Parser.lib: CXX_STATIC_LIBRARY_LINKER__Parser Parser\CMakeFiles\Parser.dir\Parser.cpp.obj
+build Parser\Parser.lib: CXX_STATIC_LIBRARY_LINKER__Parser Parser\CMakeFiles\Parser.dir\Parser.cpp.obj || Config\Config.lib Util\Util.lib
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64
   OBJECT_DIR = Parser\CMakeFiles\Parser.dir

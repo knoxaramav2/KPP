@@ -1108,6 +1108,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/MMI/Documents/tmpdev/KPP/KPP"
+		},
+		{
+			"name" : "Parser_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;Config;general;Util;"
 		}
 	],
 	"kind" : "cache",

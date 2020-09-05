@@ -20,7 +20,8 @@
 	{
 		"commands" : 
 		[
-			"add_library"
+			"add_library",
+			"target_link_libraries"
 		],
 		"files" : 
 		[
@@ -35,6 +36,18 @@
 				"command" : 0,
 				"file" : 0,
 				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -53,6 +66,17 @@
 			[
 				0
 			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Config::@450292a00204b211412e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Util::@985804b4fac11ee930c3"
 		}
 	],
 	"id" : "Parser::@74bff9814a543eacbe93",

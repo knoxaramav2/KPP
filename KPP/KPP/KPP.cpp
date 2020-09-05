@@ -10,11 +10,8 @@
 #include "KPP.h"
 #include "Parser.h"
 
-
 using namespace std;
 
-//Config _config;
-//ErrorReporter _reporter;
 
 tuple<string, string> getCliKeyVal(string input) {
 
@@ -29,6 +26,24 @@ void cliParser(int argc, char**argv) {
 
 	bool fatal = false;
 
+	string execDir = argv[0];
+	size_t bs = execDir.find_last_of('\\');
+	size_t fs = execDir.find_last_of('/');
+
+	if (bs == string::npos && fs == string::npos) {
+		_config.execDir = execDir;
+	}
+	else if (bs == string::npos && fs != string::npos) {
+		_config.execDir = execDir.substr(0, fs);
+	}
+	else if (fs == string::npos && bs != string::npos) {
+		_config.execDir = execDir.substr(0, bs);
+	}
+	else {
+		_config.execDir = execDir.substr(0, bs > fs ? bs : fs);
+	}
+
+	cout << _config.execDir << endl;
 	for (int i = 1; i < argc; ++i) {
 
 		string op = argv[i];
@@ -104,6 +119,7 @@ int main(int argc, char**argv, char*argx)
 	cliParser(argc, argv);
 
 	Parser parser(_config.srcFile);
+	parser.PreParse();
 
 	cout << "Done." << endl;
 
