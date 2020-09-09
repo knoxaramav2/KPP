@@ -51,7 +51,7 @@ PreParser::PreParser()
 void PreParser::PreParseProject(std::string src) {
 	cout << "Preparse" << src << endl;
 	cout << _config.execDir << endl;
-	ifstream file(src, ifstream::binary);
+	ifstream file(src, ios::in | ios::binary);
 	if (file.is_open()) {
 		_reporter.Add(Error(ErrorLevel::Error, "Cannot open file " + src));
 		return;
@@ -69,7 +69,7 @@ void PreParser::PreParseProject(std::string src) {
 	int fileSize = file.tellg();
 	file.seekg(0, ios::beg);
 
-	char* stream = (char*)malloc(fileSize);
+	char* stream = new char[fileSize];
 	file.read(stream, fileSize);
 
 	int blockState = 0;
@@ -79,7 +79,6 @@ void PreParser::PreParseProject(std::string src) {
 	bool freshLine = true;//True after normal state newline. False after non-whitespace.
 	for (auto i = 0; i < fileSize; ++i) {
 		char c = stream[i];
-		cout << c;
 
 		if (state == ParseState::Normal) {
 			if (IsWhiteSpace(c)) {
@@ -88,8 +87,6 @@ void PreParser::PreParseProject(std::string src) {
 		}
 	}
 	
-	
-
 	file.close();
 
 }

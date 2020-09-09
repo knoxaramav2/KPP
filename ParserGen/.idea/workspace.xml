@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="786fc271-74e5-4c73-98ed-4ad59daed888" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/Dev/Proj1/Class.kpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/Dev/Proj1/Main.kpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/Parser/FileGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/Parser/FileGraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/Parser/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/Parser/Parser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/KPP/KPP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/KPP/KPP.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/Parser/Parser.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/Parser/Parser.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-csharp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-csharp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dotnet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dotnet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-go.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-go.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-javascript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-javascript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-php.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-php.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-swift.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-swift.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-osx-dotnet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-osx-dotnet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-cpp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-cpp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-csharp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-csharp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-dart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-dart.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-dotnet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-dotnet.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-go.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-go.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-java.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-java.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-javascript.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-javascript.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-php.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-php.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-python2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-python2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-python3.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-python3.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/.travis/run-tests-swift.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/run-tests-swift.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime-testsuite/resources/org/antlr/v4/test/runtime/templates/Swift.test.stg" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime-testsuite/resources/org/antlr/v4/test/runtime/templates/Swift.test.stg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/demo/Mac/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/demo/Mac/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/demo/generate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/demo/generate.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/deploy-macos.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/deploy-macos.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/deploy-source.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/deploy-source.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRErrorStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRErrorStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRFileStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRFileStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRFileStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRFileStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRInputStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRInputStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRInputStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ANTLRInputStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BailErrorStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BailErrorStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BailErrorStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BailErrorStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BaseErrorListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BaseErrorListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BaseErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BaseErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BufferedTokenStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BufferedTokenStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BufferedTokenStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/BufferedTokenStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CharStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CharStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CharStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CharStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonToken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonToken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonToken.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonToken.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/CommonTokenStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ConsoleErrorListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ConsoleErrorListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ConsoleErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ConsoleErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DefaultErrorStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DefaultErrorStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DefaultErrorStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DefaultErrorStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DiagnosticErrorListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DiagnosticErrorListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DiagnosticErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/DiagnosticErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/FailedPredicateException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/FailedPredicateException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/FailedPredicateException.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/FailedPredicateException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InputMismatchException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InputMismatchException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InputMismatchException.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InputMismatchException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/IntStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/IntStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/IntStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/IntStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InterpreterRuleContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InterpreterRuleContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InterpreterRuleContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/InterpreterRuleContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Lexer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerInterpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerInterpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerInterpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerInterpreter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerNoViableAltException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerNoViableAltException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerNoViableAltException.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/LexerNoViableAltException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ListTokenSource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ListTokenSource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ListTokenSource.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ListTokenSource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/NoViableAltException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/NoViableAltException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/NoViableAltException.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/NoViableAltException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Parser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserInterpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserInterpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserInterpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserInterpreter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserRuleContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserRuleContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserRuleContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ParserRuleContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ProxyErrorListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ProxyErrorListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ProxyErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/ProxyErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RecognitionException.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RecognitionException.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RecognitionException.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RecognitionException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Recognizer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Recognizer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Recognizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Recognizer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContextWithAltNum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContextWithAltNum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContextWithAltNum.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuleContextWithAltNum.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuntimeMetaData.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuntimeMetaData.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuntimeMetaData.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/RuntimeMetaData.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Token.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenSource.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenSource.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStreamRewriter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStreamRewriter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStreamRewriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/TokenStreamRewriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedCharStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedCharStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedCharStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedCharStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedTokenStream.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedTokenStream.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedTokenStream.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/UnbufferedTokenStream.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Vocabulary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Vocabulary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Vocabulary.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/Vocabulary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/WritableToken.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/WritableToken.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATN.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATN.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATN.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATN.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfigSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfigSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfigSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNConfigSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializationOptions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializationOptions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializationOptions.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializationOptions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNDeserializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSerializer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSerializer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSimulator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSimulator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSimulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNSimulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNType.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ATNType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AbstractPredicateTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AbstractPredicateTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AbstractPredicateTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AbstractPredicateTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ActionTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ActionTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ActionTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ActionTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AmbiguityInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AmbiguityInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AmbiguityInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AmbiguityInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ArrayPredictionContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ArrayPredictionContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ArrayPredictionContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ArrayPredictionContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AtomTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AtomTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AtomTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/AtomTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicBlockStartState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicBlockStartState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicBlockStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicBlockStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BasicState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockEndState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockEndState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockEndState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockEndState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/BlockStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ContextSensitivityInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ContextSensitivityInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ContextSensitivityInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ContextSensitivityInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionEventInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionEventInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionEventInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionEventInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/DecisionState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EmptyPredictionContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EmptyPredictionContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EmptyPredictionContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EmptyPredictionContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EpsilonTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EpsilonTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EpsilonTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/EpsilonTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ErrorInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ErrorInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ErrorInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ErrorInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LL1Analyzer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LL1Analyzer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LL1Analyzer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LL1Analyzer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNConfig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNSimulator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNSimulator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNSimulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerATNSimulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionExecutor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionExecutor.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionExecutor.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionExecutor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionType.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerActionType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerChannelAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerChannelAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerChannelAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerChannelAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerCustomAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerCustomAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerCustomAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerCustomAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerIndexedCustomAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerIndexedCustomAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerIndexedCustomAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerIndexedCustomAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerModeAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerModeAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerModeAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerModeAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerMoreAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerMoreAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerMoreAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerMoreAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPopModeAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPopModeAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPopModeAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPopModeAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPushModeAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPushModeAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPushModeAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerPushModeAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerSkipAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerSkipAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerSkipAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerSkipAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerTypeAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerTypeAction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerTypeAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LexerTypeAction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LookaheadEventInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LookaheadEventInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LookaheadEventInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LookaheadEventInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LoopEndState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LoopEndState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LoopEndState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/LoopEndState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/NotSetTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/NotSetTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/NotSetTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/NotSetTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/OrderedATNConfigSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/OrderedATNConfigSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/OrderedATNConfigSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/OrderedATNConfigSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParseInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParseInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParseInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParseInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusBlockStartState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusBlockStartState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusBlockStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusBlockStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusLoopbackState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusLoopbackState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusLoopbackState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PlusLoopbackState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PrecedencePredicateTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PrecedencePredicateTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PrecedencePredicateTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PrecedencePredicateTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateEvalInfo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateEvalInfo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateEvalInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateEvalInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredicateTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionMode.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/PredictionMode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ProfilingATNSimulator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ProfilingATNSimulator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ProfilingATNSimulator.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/ProfilingATNSimulator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RangeTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RangeTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RangeTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RangeTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStartState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStartState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStopState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStopState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStopState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleStopState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/RuleTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SemanticContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SemanticContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SemanticContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SemanticContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SetTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SetTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SetTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SetTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SingletonPredictionContext.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SingletonPredictionContext.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SingletonPredictionContext.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/SingletonPredictionContext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarBlockStartState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarBlockStartState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarBlockStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarBlockStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopEntryState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopEntryState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopEntryState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopEntryState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopbackState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopbackState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopbackState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/StarLoopbackState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/TokensStartState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/TokensStartState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/TokensStartState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/TokensStartState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/Transition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/Transition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/Transition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/Transition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/WildcardTransition.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/WildcardTransition.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/WildcardTransition.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/atn/WildcardTransition.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFA.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFA.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFASerializer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFASerializer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFASerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFASerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFAState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFAState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFAState.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/DFAState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/LexerDFASerializer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/LexerDFASerializer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/LexerDFASerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/dfa/LexerDFASerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/InterpreterDataReader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/InterpreterDataReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/InterpreterDataReader.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/InterpreterDataReader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Interval.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Interval.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Interval.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Interval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/IntervalSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/IntervalSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/IntervalSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/IntervalSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/MurmurHash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/MurmurHash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/MurmurHash.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/MurmurHash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Predicate.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/misc/Predicate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/CPPUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/CPPUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/guid.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/guid.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/guid.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/support/guid.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/AbstractParseTreeVisitor.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/AbstractParseTreeVisitor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNodeImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNodeImpl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNodeImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ErrorNodeImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeProperty.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeProperty.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeVisitor.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeWalker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeWalker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeWalker.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/ParseTreeWalker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNodeImpl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNodeImpl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNodeImpl.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/TerminalNodeImpl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/Trees.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/Trees.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/Trees.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/Trees.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/Chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/Chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreeMatch.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreeMatch.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreeMatch.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreeMatch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePattern.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePattern.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePattern.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePattern.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePatternMatcher.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/ParseTreePatternMatcher.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/RuleTagToken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/RuleTagToken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/RuleTagToken.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/RuleTagToken.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TagChunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TagChunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TagChunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TagChunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TextChunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TextChunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TextChunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TextChunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TokenTagToken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TokenTagToken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TokenTagToken.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/pattern/TokenTagToken.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPath.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPath.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathLexerErrorListener.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathLexerErrorListener.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathLexerErrorListener.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathLexerErrorListener.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleAnywhereElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleAnywhereElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathRuleElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenAnywhereElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenAnywhereElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathTokenElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardAnywhereElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardAnywhereElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Cpp/runtime/src/tree/xpath/XPathWildcardElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Java/src/org/antlr/v4/runtime/atn/ATNConfigSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Java/src/org/antlr/v4/runtime/atn/ParserATNSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Java/src/org/antlr/v4/runtime/atn/ParserATNSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Python2/src/antlr4/atn/ATNConfigSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Python2/src/antlr4/atn/ATNConfigSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Python2/src/antlr4/atn/ParserATNSimulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Python2/src/antlr4/atn/ParserATNSimulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Python3/bin/pygrun" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Python3/bin/pygrun" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Python3/bin/pygrun.bat" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Python3/bin/pygrun.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/runtime/Swift/boot.py" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/runtime/Swift/boot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/scripts/parse-extended-pictographic/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/scripts/parse-extended-pictographic/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Swift/Swift.stg" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/tool/resources/org/antlr/v4/tool/templates/codegen/Swift/Swift.stg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1701694228">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ParserGen.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/hw3code/hw3code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Google Drive/Edu/f19/CS417/hw4code/hw4code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Google Drive/Edu/f19/CS417/hw5/hw5code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Google Drive/Edu/f19/CS417/hw5/hw5code - Copy" value="PREVIEW" />
+        <entry key="$USER_HOME$/Google Drive/Edu/f19/Cs342/hw7/hw7code/hw7code" value="PREVIEW" />
+        <entry key="$USER_HOME$/Google Drive/Edu/f19/Cs342/hw8/hw8code/hw8code" value="PREVIEW" />
+        <entry key="E:/Dev/class/CS342/tutorial" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/antlr4/runtime/JavaScript/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="329" />
+    <option name="y" value="-14" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ParserGen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ParserGen" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="786fc271-74e5-4c73-98ed-4ad59daed888" name="Default Changelist" comment="" />
+      <created>1599605371712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599605371712</updated>
+      <workItem from="1599605375670" duration="957000" />
+      <workItem from="1599692169740" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1556000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="329" y="-14" width="1040" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25510204" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tool Output" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ParserGen.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
