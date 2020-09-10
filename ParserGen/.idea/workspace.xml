@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="786fc271-74e5-4c73-98ed-4ad59daed888" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/Dev/Proj1/Class.kpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/Dev/Proj1/Main.kpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/Parser/FileGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/Parser/FileGraph.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/Parser/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/Parser/Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/KPP/KPP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/KPP/KPP.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/Parser/Parser.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../KPP/out/build/x64-Debug/Parser/Parser.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antlr4" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-csharp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-csharp.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dart.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dotnet.sh" beforeDir="false" afterPath="$PROJECT_DIR$/antlr4/.travis/before-install-linux-dotnet.sh" afterDir="false" />
@@ -331,6 +323,7 @@
     <session id="-1701694228">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="2" />
@@ -388,11 +381,11 @@
       <path value="$PROJECT_DIR$/antlr4/runtime/JavaScript/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="329" />
-    <option name="y" value="-14" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -450,10 +443,10 @@
     <option name="totallyTimeSpent" value="1556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="-14" width="1040" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25510204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
