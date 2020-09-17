@@ -1,0 +1,66 @@
+//Header2.kcc---------------------------------------
+$NS H2
+$use Header.kcc
+$use STDIO
+
+[class]#class definition
+Animal{
+
+	-string Species;#private member
+
+	+Cons(string Species){#constructor
+		.Species = Species;#'this' implied by '.'
+	}
+	
+	+Dest(){#destructor
+		
+	}
+	
+	+Speak(string msg)void{#public method
+		print("The {Species} says {msg}");
+	}
+
+}
+
+[interface, Parrot]#Interfaces may inherit other interfaces
+Parrot{
+	Repeat()void;
+}
+
+[interface]#Interface contract
+Bird{
+	Squak()void;
+}
+
+//Header1.kcc---------------------------------------
+$NS H1
+
+[class, extend [Animal], implement[Parrot]]#class, inherits Animal, implements Parrot
+Duck{
+	+Cons(){
+		super("Duck"); 
+	}
+	
+	+Dest(){
+	
+	}
+	
+	Squak()void{#interface methods are always public, no need for specifier
+	
+	}
+	
+	Repeat()void{
+	
+	}
+}
+
+//Main.kcc---------------------------------------
+$NS Main
+$Macro Name "Meh"
+$use Header2.kcc
+
+int __entry__(){
+	
+	
+	
+}
