@@ -1,5 +1,21 @@
 grammar Operator;
 
+//rules groupes
+s_group             : S_SET         |
+                      S_SUM_SET     |
+                      S_DIF_SET     |
+                      S_MULT_SET    |
+                      S_INC_OR_SET  |
+                      S_EXC_OR_SET  |
+                      S_LSHIFT_SET  |
+                      S_RSHIFT_SET
+                      ;
+
+l_group             : L_NOT         |
+                      L_AND  
+                    ;
+
+
 //*****Operators
 //Setters
 S_SET               : '=';

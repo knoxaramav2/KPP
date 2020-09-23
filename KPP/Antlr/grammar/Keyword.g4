@@ -4,6 +4,7 @@ grammar Keyword;
 M_ENTRY             : '__entry__';
 T_INTERFACE         : 'interface';
 T_CLASS             : 'class';
+T_STRUCT            : 'struct';
 
 //Control
 C_FOR               : 'for';//You see one man, where I C-4
