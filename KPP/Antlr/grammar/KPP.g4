@@ -7,7 +7,10 @@ options{
 kpp				: section+EOF;
 
 
-section			: namespacedecl;
+section			:
+                  preproc           |
+                  namespacedecl
+                  ;
 namespacedecl 	: G_ASSEMBLY symbol_id block
 				;
 symbol_id		: (IDENTIFIER)(G_DOT IDENTIFIER)*?;
@@ -29,6 +32,7 @@ accessdeclblock :
                 ;
 
 expr			: (
+                preproc                 |
 				binMathOps				|
 				binCompOps				|
 				group					|
@@ -36,19 +40,25 @@ expr			: (
 				ifexp					|
 				loopexp					|
 				classDecl				|
+				entrydecl               |
 				methodDecl              |
 				methodCall              |
+				vardecl                 |
 				symbol_id				|
-				NUMBER
+				number
 				)+SEMI;
 
 classDecl		: D_CLASS symbol_id classblock;
 
+preproc         : PP_SYM (
+                  pp_import
+                ) SEMI;
+pp_import       : PP_IMPORT symbol_id;
 
-methodDecl		: symbol_id symbol_id L_PARANTH R_PARANTH block;
+
+entrydecl       : G_ENTRY group? block;
+methodDecl		: symbol_id symbol_id group? block;
 methodCall		: symbol_id L_PARANTH group R_PARANTH SEMI;
-
-vardecl         :;
 
 setexpr			:
 				symbol_id set value		|
@@ -62,13 +72,28 @@ set				:
 				A_SET_QUOTIENT		|
 				A_SET_SUM;
 
-loopexp			:
-				C_FOR L_PARANTH group R_PARANTH (expr | block)
+loopexp			:C_FOR loopgroup (expr | block)
 				;
 
+loopgroup       : L_PARANTH
+                (
+                 loop3group     | //(var a=n; condition; post loop op)
+                 loopeach       |
+                 INTEGER           //Iterate n times
+                )? //Empty loop is infinite
+                R_PARANTH;
+
+loop3group      : vardecl? SEMI expr? SEMI expr?;
+loopeach        : symbol_id C_IN symbol_id;
+
 group			:
-				L_PARANTH ((expr|~R_PARANTH) (COMMA (expr|~R_PARANTH))*)? R_PARANTH
+                L_PARANTH ((vardecl|~R_PARANTH) (COMMA vardecl|~R_PARANTH)*)? R_PARANTH |
+				L_PARANTH ((symbol_id symbol_id|~R_PARANTH) (COMMA symbol_id symbol_id|~R_PARANTH)*)? R_PARANTH
 				;
+
+vardecl         : symbol_id symbol_id   |
+                  arraydecl;
+arraydecl       : symbol_id L_BRACKET number? R_BRACKET symbol_id;
 
 ifexp			:
 				C_IF L_PARANTH expr R_PARANTH (expr | block) (elseexp)?
@@ -81,7 +106,7 @@ elseexp			:
 mathExpr		: expr binMathOps expr;
 compExpr		: expr binCompOps expr;
 
-value			: symbol_id | NUMBER;
+value			: symbol_id | number;
 
 binCompOps		:
 				CM_EQU		|
@@ -111,7 +136,13 @@ lr_math_ops		:
 				symbol_id A_DECRIMENT
 				;
 
+number			: DECIMAL | INTEGER;
+
 /**** Lexer rules ***/
+
+/**** Pre processor */
+PP_SYM          :'$';
+PP_IMPORT       :'import';
 
 /**** Data structures */
 D_CLASS			: 'class';
@@ -125,6 +156,8 @@ P_INHERIT       : 'legacy';     //Available to sub components
 /**** General     ***/
 G_ASSEMBLY		: '__asm__';
 G_DOT			: '.';
+G_ENTRY         : 'entry';
+G_ELLIPSE       : '...';
 
 /**** Comparison  ***/
 CM_GTR          : '>';
@@ -173,6 +206,7 @@ C_FOR			: 'for';
 C_GOTO			: 'goto';
 C_BREAK			: 'break';
 C_SKIP			: 'skip';
+C_IN            : 'in';
 
 /**** Enclosures  ****/
 L_BRACKET       : '[';
@@ -188,12 +222,12 @@ LINE_COMMENT    : '#' ~[\r\n]* ->channel(HIDDEN);
 BLOCK_COMMENT   : '#*' .*? '*#'->channel(HIDDEN);
 
 fragment ALPHA  : [a-zA-Z_];
+fragment NUMBER : DECIMAL | INTEGER;
 
 //general identifies
 COMMA			: ',';
-NUMBER			: DECIMAL | INTEGER;
-DECIMAL         : '-'?[0-9]+('.'[0-9])?;
 INTEGER			: '-'?[0-9]+;
+DECIMAL         : '-'?[0-9]+('.'[0-9])?;
 IDENTIFIER      : ALPHA+ (DECIMAL+)?;//[a-zA-Z_]([a-zA-Z_0-9])+;
 SEMI            : ';';
 WS              : [ \r\t\u000C\n]+ -> skip ;

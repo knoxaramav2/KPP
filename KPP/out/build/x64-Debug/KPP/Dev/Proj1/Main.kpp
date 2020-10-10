@@ -1,8 +1,19 @@
-$Class.kpp
+$import module;
 
-namespace main{
-	#starting function
-	void entry(int argc, string[] argv){
-		
-	}
+__asm__ main{
+
+    entry(string[]args){#entry method
+        
+        #loops
+        
+        for(2){
+        
+        };
+        
+        for (a in b){
+        
+        };
+        
+    };
+
 }
