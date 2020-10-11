@@ -12,31 +12,32 @@
 class  KPPParser : public antlr4::Parser {
 public:
   enum {
-    PP_SYM = 1, PP_IMPORT = 2, D_CLASS = 3, P_PUBLIC = 4, P_PRIVATE = 5, 
-    P_INTERNAL = 6, P_INHERIT = 7, G_ASSEMBLY = 8, G_DOT = 9, G_ENTRY = 10, 
-    G_ELLIPSE = 11, CM_GTR = 12, CM_LSS = 13, CM_EQU = 14, CM_GTR_EQU = 15, 
-    CM_LSS_EQU = 16, A_SET = 17, A_ADD = 18, A_SUBTRACT = 19, A_MULTIPLY = 20, 
-    A_DIVIDE = 21, A_EXPONENT = 22, A_MODULO = 23, A_SET_SUM = 24, A_SET_DIFFERENCE = 25, 
-    A_SET_PRODUCT = 26, A_SET_QUOTIENT = 27, A_INCREMENT = 28, A_DECRIMENT = 29, 
-    L_AND = 30, L_OR = 31, L_NAND = 32, L_NOR = 33, L_XOR = 34, L_XNOR = 35, 
-    L_NOT = 36, BL_AND = 37, BL_OR = 38, BL_INV = 39, BL_LEFT = 40, BL_RIGHT = 41, 
-    C_IF = 42, C_ELSE = 43, C_WHILE = 44, C_FOR = 45, C_GOTO = 46, C_BREAK = 47, 
-    C_SKIP = 48, C_IN = 49, L_BRACKET = 50, R_BRACKET = 51, L_PARANTH = 52, 
-    R_PARANTH = 53, L_BRACE = 54, R_BRACE = 55, LINE_COMMENT = 56, BLOCK_COMMENT = 57, 
-    COMMA = 58, INTEGER = 59, DECIMAL = 60, IDENTIFIER = 61, SEMI = 62, 
-    WS = 63
+    PP_SYM = 1, PP_IMPORT = 2, D_CLASS = 3, D_INTERFACE = 4, P_PUBLIC = 5, 
+    P_PRIVATE = 6, P_INTERNAL = 7, P_INHERIT = 8, G_ASSEMBLY = 9, G_DOT = 10, 
+    G_ENTRY = 11, G_ELLIPSE = 12, CM_GTR = 13, CM_LSS = 14, CM_EQU = 15, 
+    CM_GTR_EQU = 16, CM_LSS_EQU = 17, A_SET = 18, A_ADD = 19, A_SUBTRACT = 20, 
+    A_MULTIPLY = 21, A_DIVIDE = 22, A_EXPONENT = 23, A_MODULO = 24, A_SET_SUM = 25, 
+    A_SET_DIFFERENCE = 26, A_SET_PRODUCT = 27, A_SET_QUOTIENT = 28, A_INCREMENT = 29, 
+    A_DECRIMENT = 30, L_AND = 31, L_OR = 32, L_NAND = 33, L_NOR = 34, L_XOR = 35, 
+    L_XNOR = 36, L_NOT = 37, BL_AND = 38, BL_OR = 39, BL_INV = 40, BL_LEFT = 41, 
+    BL_RIGHT = 42, C_IF = 43, C_ELSE = 44, C_WHILE = 45, C_FOR = 46, C_GOTO = 47, 
+    C_BREAK = 48, C_SKIP = 49, C_IN = 50, L_BRACKET = 51, R_BRACKET = 52, 
+    L_PARANTH = 53, R_PARANTH = 54, L_BRACE = 55, R_BRACE = 56, LINE_COMMENT = 57, 
+    BLOCK_COMMENT = 58, COMMA = 59, INTEGER = 60, DECIMAL = 61, IDENTIFIER = 62, 
+    SEMI = 63, WS = 64
   };
 
   enum {
     RuleKpp = 0, RuleSection = 1, RuleNamespacedecl = 2, RuleSymbol_id = 3, 
     RuleBlock = 4, RuleClassblock = 5, RuleClassdeclblock = 6, RuleAccessdeclblock = 7, 
-    RuleExpr = 8, RuleClassDecl = 9, RulePreproc = 10, RulePp_import = 11, 
-    RuleEntrydecl = 12, RuleMethodDecl = 13, RuleMethodCall = 14, RuleSetexpr = 15, 
-    RuleSet = 16, RuleLoopexp = 17, RuleLoopgroup = 18, RuleLoop3group = 19, 
-    RuleLoopeach = 20, RuleGroup = 21, RuleVardecl = 22, RuleArraydecl = 23, 
-    RuleIfexp = 24, RuleElseexp = 25, RuleMathExpr = 26, RuleCompExpr = 27, 
-    RuleValue = 28, RuleBinCompOps = 29, RuleUnaryLogic = 30, RuleUnaryOp = 31, 
-    RuleBinMathOps = 32, RuleLr_math_ops = 33, RuleNumber = 34
+    RuleExpr = 8, RuleInterfaceDecl = 9, RuleClassDecl = 10, RuleInheritList = 11, 
+    RulePreproc = 12, RulePp_import = 13, RuleEntryDecl = 14, RuleMethodDecl = 15, 
+    RuleMethodCall = 16, RuleSetexpr = 17, RuleSet = 18, RuleLoopexp = 19, 
+    RuleLoopgroup = 20, RuleLoop3group = 21, RuleLoopeach = 22, RuleGroup = 23, 
+    RuleVardecl = 24, RuleArraydecl = 25, RuleIfexp = 26, RuleElseexp = 27, 
+    RuleMathExpr = 28, RuleCompExpr = 29, RuleValue = 30, RuleBinCompOps = 31, 
+    RuleUnaryLogic = 32, RuleUnaryOp = 33, RuleBinMathOps = 34, RuleLr_math_ops = 35, 
+    RuleNumber = 36
   };
 
   KPPParser(antlr4::TokenStream *input);
@@ -58,10 +59,12 @@ public:
   class ClassdeclblockContext;
   class AccessdeclblockContext;
   class ExprContext;
+  class InterfaceDeclContext;
   class ClassDeclContext;
+  class InheritListContext;
   class PreprocContext;
   class Pp_importContext;
-  class EntrydeclContext;
+  class EntryDeclContext;
   class MethodDeclContext;
   class MethodCallContext;
   class SetexprContext;
@@ -204,6 +207,12 @@ public:
     antlr4::tree::TerminalNode *SEMI();
     std::vector<PreprocContext *> preproc();
     PreprocContext* preproc(size_t i);
+    std::vector<SetexprContext *> setexpr();
+    SetexprContext* setexpr(size_t i);
+    std::vector<MathExprContext *> mathExpr();
+    MathExprContext* mathExpr(size_t i);
+    std::vector<CompExprContext *> compExpr();
+    CompExprContext* compExpr(size_t i);
     std::vector<BinMathOpsContext *> binMathOps();
     BinMathOpsContext* binMathOps(size_t i);
     std::vector<BinCompOpsContext *> binCompOps();
@@ -218,10 +227,12 @@ public:
     IfexpContext* ifexp(size_t i);
     std::vector<LoopexpContext *> loopexp();
     LoopexpContext* loopexp(size_t i);
+    std::vector<InterfaceDeclContext *> interfaceDecl();
+    InterfaceDeclContext* interfaceDecl(size_t i);
     std::vector<ClassDeclContext *> classDecl();
     ClassDeclContext* classDecl(size_t i);
-    std::vector<EntrydeclContext *> entrydecl();
-    EntrydeclContext* entrydecl(size_t i);
+    std::vector<EntryDeclContext *> entryDecl();
+    EntryDeclContext* entryDecl(size_t i);
     std::vector<MethodDeclContext *> methodDecl();
     MethodDeclContext* methodDecl(size_t i);
     std::vector<MethodCallContext *> methodCall();
@@ -238,6 +249,26 @@ public:
 
   ExprContext* expr();
 
+  class  InterfaceDeclContext : public antlr4::ParserRuleContext {
+  public:
+    InterfaceDeclContext(antlr4::ParserRuleContext *parent, size_t invokingState);
+    virtual size_t getRuleIndex() const override;
+    antlr4::tree::TerminalNode *D_INTERFACE();
+    std::vector<Symbol_idContext *> symbol_id();
+    Symbol_idContext* symbol_id(size_t i);
+    antlr4::tree::TerminalNode *L_BRACE();
+    antlr4::tree::TerminalNode *R_BRACE();
+    antlr4::tree::TerminalNode *SEMI();
+    std::vector<antlr4::tree::TerminalNode *> L_BRACKET();
+    antlr4::tree::TerminalNode* L_BRACKET(size_t i);
+    std::vector<antlr4::tree::TerminalNode *> R_BRACKET();
+    antlr4::tree::TerminalNode* R_BRACKET(size_t i);
+
+   
+  };
+
+  InterfaceDeclContext* interfaceDecl();
+
   class  ClassDeclContext : public antlr4::ParserRuleContext {
   public:
     ClassDeclContext(antlr4::ParserRuleContext *parent, size_t invokingState);
@@ -245,11 +276,28 @@ public:
     antlr4::tree::TerminalNode *D_CLASS();
     Symbol_idContext *symbol_id();
     ClassblockContext *classblock();
+    InheritListContext *inheritList();
 
    
   };
 
   ClassDeclContext* classDecl();
+
+  class  InheritListContext : public antlr4::ParserRuleContext {
+  public:
+    InheritListContext(antlr4::ParserRuleContext *parent, size_t invokingState);
+    virtual size_t getRuleIndex() const override;
+    antlr4::tree::TerminalNode *L_BRACKET();
+    antlr4::tree::TerminalNode *R_BRACKET();
+    std::vector<Symbol_idContext *> symbol_id();
+    Symbol_idContext* symbol_id(size_t i);
+    std::vector<antlr4::tree::TerminalNode *> COMMA();
+    antlr4::tree::TerminalNode* COMMA(size_t i);
+
+   
+  };
+
+  InheritListContext* inheritList();
 
   class  PreprocContext : public antlr4::ParserRuleContext {
   public:
@@ -276,9 +324,9 @@ public:
 
   Pp_importContext* pp_import();
 
-  class  EntrydeclContext : public antlr4::ParserRuleContext {
+  class  EntryDeclContext : public antlr4::ParserRuleContext {
   public:
-    EntrydeclContext(antlr4::ParserRuleContext *parent, size_t invokingState);
+    EntryDeclContext(antlr4::ParserRuleContext *parent, size_t invokingState);
     virtual size_t getRuleIndex() const override;
     antlr4::tree::TerminalNode *G_ENTRY();
     BlockContext *block();
@@ -287,7 +335,7 @@ public:
    
   };
 
-  EntrydeclContext* entrydecl();
+  EntryDeclContext* entryDecl();
 
   class  MethodDeclContext : public antlr4::ParserRuleContext {
   public:
@@ -487,8 +535,6 @@ public:
   public:
     MathExprContext(antlr4::ParserRuleContext *parent, size_t invokingState);
     virtual size_t getRuleIndex() const override;
-    std::vector<ExprContext *> expr();
-    ExprContext* expr(size_t i);
     BinMathOpsContext *binMathOps();
 
    
@@ -500,8 +546,6 @@ public:
   public:
     CompExprContext(antlr4::ParserRuleContext *parent, size_t invokingState);
     virtual size_t getRuleIndex() const override;
-    std::vector<ExprContext *> expr();
-    ExprContext* expr(size_t i);
     BinCompOpsContext *binCompOps();
 
    

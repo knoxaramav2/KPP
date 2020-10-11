@@ -32,23 +32,37 @@ accessdeclblock :
                 ;
 
 expr			: (
-                preproc                 |
-				binMathOps				|
-				binCompOps				|
-				group					|
-				A_SUBTRACT expr			|
-				ifexp					|
-				loopexp					|
-				classDecl				|
-				entrydecl               |
-				methodDecl              |
-				methodCall              |
-				vardecl                 |
-				symbol_id				|
-				number
+                preproc                 | //$KEY VAL
+                setexpr                 | // a = ...
+                mathExpr                | // ...a+b...
+                compExpr                | // ...a==b...
+				binMathOps				| //arithmatic expression
+				binCompOps				| //comparison expression
+				group					| //(...)
+				A_SUBTRACT expr			| //negate
+				ifexp					| //if expression
+				loopexp					| //loop expression
+				interfaceDecl           | //interface declaration
+				classDecl				| //class declaration
+				entryDecl               | //entry method
+				methodDecl              | //function delcaration
+				methodCall              | //function call
+				vardecl                 | //variable declaration
+				symbol_id				| //symbol
+				number                    //numeric constant
 				)+SEMI;
 
-classDecl		: D_CLASS symbol_id classblock;
+interfaceDecl   :
+                 D_INTERFACE symbol_id ((L_BRACKET symbol_id R_BRACKET)+)? L_BRACE () R_BRACE SEMI
+                ;
+
+classDecl		: D_CLASS symbol_id
+                inheritList?
+                classblock;
+
+inheritList     :
+                 (L_BRACKET (symbol_id) ((COMMA symbol_id)+)? R_BRACKET)
+                ;
 
 preproc         : PP_SYM (
                   pp_import
@@ -56,7 +70,7 @@ preproc         : PP_SYM (
 pp_import       : PP_IMPORT symbol_id;
 
 
-entrydecl       : G_ENTRY group? block;
+entryDecl       : G_ENTRY group? block;
 methodDecl		: symbol_id symbol_id group? block;
 methodCall		: symbol_id L_PARANTH group R_PARANTH SEMI;
 
@@ -103,8 +117,8 @@ elseexp			:
 				C_ELSE (expr | block | ~C_IF)
 				;
 
-mathExpr		: expr binMathOps expr;
-compExpr		: expr binCompOps expr;
+mathExpr		: binMathOps;
+compExpr		: binCompOps;
 
 value			: symbol_id | number;
 
@@ -146,6 +160,7 @@ PP_IMPORT       :'import';
 
 /**** Data structures */
 D_CLASS			: 'class';
+D_INTERFACE     : 'contract';
 
 /**** Protection levels */
 P_PUBLIC        : 'public';     //Available to all expose

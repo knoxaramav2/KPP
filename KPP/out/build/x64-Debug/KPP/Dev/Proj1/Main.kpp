@@ -15,5 +15,19 @@ __asm__ main{
         };
         
     };
+	
+	#structures
+	
+	contract Critter{
+	
+	};
+	
+	class Animal [Critter]{
+	
+	};
+	
+	class Donkey[Animal]{ #inherit sub classes and interfaces
+	
+	};
 
 }
